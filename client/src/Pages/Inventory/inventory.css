@@ -1,0 +1,120 @@
+@font-face {
+    font-family: lucy;
+    src: url(../../Components/assets/LucySaidOkPersonalUseItalic-OV9ee.ttf);
+ }
+
+ @font-face {
+    font-family: christmas;
+    src: url(../../Components/assets/ChristmastimestarpersonaluseRe-K7w67.otf)
+  }
+
+#header1 {
+    font-family: christmas;
+    color: rgb(75, 166, 189);
+    text-shadow: 3px 3px 3px black;
+    font-size: 160px;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 2%;
+}
+
+#header2 {
+    font-family: brookfield;
+    color: rgb(88, 138, 204);
+    font-size: 55px;
+    text-decoration: underline;
+    text-shadow: 3px 3px 3px black;
+    text-align: center;
+    background-color: rgb(227, 215, 239);
+    width: 40%;
+    margin: auto;
+    border-radius: 35px;
+
+
+}
+#myList{
+    display:flex;
+    flex-wrap: wrap;
+}
+#myList div{
+    width:42%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#myList div hr{
+   border:3px outset rgb(35, 188, 170);
+   box-shadow: 3px 3px grey;
+    
+}
+.inventoryBtn {
+    margin-left: 7%;
+    text-align: center;
+    font-size: 35px;
+    background-color: black;
+    display: block;
+    color: rgb(161, 20, 255);
+    text-shadow: 2px 2px 2px white;
+    border: 4px double rgb(143, 38, 155);
+    cursor: pointer;
+    width: 90%;
+    border-radius: 40px;
+    transition-duration: 0.4s;
+}
+
+.inventoryBtn:hover {
+    opacity: 1;
+    background-color: rgb(143, 38, 155);
+    border: 4px double black;
+    color: white;
+}
+#deleteIt{
+    border-radius: 25px;
+    background-color: rgb(124, 190, 248);
+    font-size: 20px;
+}
+
+#author {
+    font-size: 30px;
+    margin-left: 8%;
+}
+
+#title {
+    font-size: 35px;
+    margin-left: 2%;
+}
+
+#description {
+    font-size: 28px;
+    margin-left: 8%;
+}
+
+#addbookform {
+    background-color: rgb(210, 173, 246);
+    width: 80%;
+    margin: auto;
+    border-radius: 35px;
+    margin-bottom: 100px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.title {
+    border: 2px solid rgb(169, 34, 151);
+    display: block;
+    margin: auto;
+    font-size: 30px;
+}
+
+.author {
+    border: 2px solid rgb(169, 34, 151);
+    display: block;
+    margin: auto;
+    font-size: 30px
+}
+
+.description {
+    border: 2px solid rgb(169, 34, 151);
+    display: block;
+    margin: auto;
+    font-size: 25px
+}

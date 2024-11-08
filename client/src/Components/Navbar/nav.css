@@ -1,0 +1,109 @@
+
+#nav-ul{
+    z-index: 2;
+      position:fixed;
+      top:0;
+      width:100%;
+      list-style-type: none;
+      /* overflow: hidden; */
+      background:linear-gradient(to right,#000000,white,#000000);
+      margin:0;
+      margin: 0;
+    }
+    #nav-ul a.active{
+      background-color: rgb(69, 163, 171);
+      color: white;
+    }
+    
+    
+    /* Style the topnav links */
+    nav a {
+      font-size: 40px;
+      float: left;
+      display: block;
+      text-align: center;
+      padding: 10px 14px;
+      text-decoration: none;
+    }
+    
+    /* Change color on hover */
+    nav a:hover {
+      background-color: #b8eee4;
+      color: black;
+    }
+    
+    
+    .dropdown {
+      margin-left: 75%;
+      /* overflow: hidden; */
+      }
+      
+      .dropdown .dropbtn {
+          font-size: 36px;    
+          border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          /* background-color: inherit;  */
+    
+          font-family: inherit;
+          margin: 0;
+      
+      }
+      
+      .navbar a:hover, .dropdown:hover .dropbtn {
+          /* background-color: aquamarine; */
+          color:black;
+      }
+      
+      .dropdown-content {
+          display: none;
+          position: absolute;
+         min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+      }
+      
+      .dropdown-content a {
+          float: none;
+          color:deeppink;
+          padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+          text-align: left;
+      }
+      
+      .dropdown-content a:hover {
+          color: #ddd;
+          background: rgba(0, 0, 0, 0.5);
+          border-bottom-left-radius: 35px;
+          border-bottom-right-radius: 35px;
+      }
+      
+      .dropdown:hover .dropdown-content {
+          display: block;
+          background-color: rgb(169, 164, 159);
+         border-bottom-left-radius: 35px;
+         border-bottom-right-radius: 35px;
+      }
+    
+    /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+    @media screen and (max-width: 500px) {
+      nav a {
+        float:none;
+     display:block;
+     text-align: left;
+      }
+    }
+    @media screen and (max-width: 500px) {
+      .dropdown {
+        float: none;
+     display:block;
+     text-align: left;
+      }
+    }
+    
+    
+    
+    
+    

@@ -1,0 +1,90 @@
+@font-face {
+  font-family: stencil;
+  src: url(../../Components/assets/StencilovePersonalUseRegular-WyerY.ttf)
+}
+
+
+
+#loginHeader {
+  color: rgb(115, 202, 173);
+  font-size: 70px;
+  text-shadow: 2px 4px 2px rgb(193, 76, 146);
+  text-align: center;
+}
+
+.loginInfo {
+  font-size: 35px;
+  width: 30%;
+  padding: 15px;
+  margin-top: 2%;
+  margin-left: 5%;
+  border: 1px solid rgb(202, 190, 190);
+  background: #f1f1f1;
+  border-radius: 25px;
+  box-shadow: 4px 5px 3px grey, 5px 7px 5px rgb(0, 234, 255);
+}
+
+.checkoutblocks {
+  background-color: rgb(210, 222, 218);
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
+
+}
+
+#checkOutBtn {
+  border-radius: 25px;
+  background-color: rgb(116, 208, 177);
+  margin-left: 2%;
+}
+
+.btn {
+  width: 97.5%;
+  background-color: rgb(43, 231, 168);
+  border-radius: 25px;
+  margin-left: 2%;
+  font-size: 40px;
+  font-family: stencil;
+}
+
+.btn:hover {
+  background-color: rgb(116, 208, 177);
+}
+
+#author2 {
+  font-size: 30px;
+  margin-left: 2%;
+}
+
+#checkoutform {
+  margin-bottom: 30px;
+}
+.hidden{
+  display: none;
+}
+#chooseBookWarning{
+  visibility: hidden;
+  width:max-content;
+  background-color: #646363;
+  font-size: 30px;
+  padding: 10px;
+  margin: auto;
+  color:red;
+  position: relative;
+  font-weight: 900;
+  font-family:Segoe Script,cursive,'Times New Roman', Times, serif ;
+}
+
+#chooseBookWarning.show{
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s ;
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}

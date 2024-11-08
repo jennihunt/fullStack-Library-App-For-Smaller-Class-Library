@@ -1,0 +1,214 @@
+
+ [
+    {
+        "author": "Mark Myers",
+        "title": "A Smarter way to learn JavaScript ",
+        "description": "Describes all things JavaScript ",
+        "bookID":1,
+        "avaliable":true
+    },
+    {
+        "author": "Jon Duckett",
+        "title": "JavaScript & Jquery",
+        "description": "Describes all things JavaScript & JQuery",
+        "bookID":2,
+        "avaliable":true
+    },
+    {
+        "author": "Jon Duckett",
+        "title": "JavaScript & Jquery",
+        "description": "Describes all things JavaScript & JQuery",
+        "bookID":3,
+        "avaliable":true
+    },
+    {
+        "author": "David Flanagan",
+        "title": "JavaScript the definitive guide",
+        "description": "Describes all things JavaScript ",
+        "bookID":4,
+        "avaliable":true
+    },
+    {
+        "author": "Marijn Haverbeke",
+        "title": "Eloquent JavaScript ",
+        "description": "Describes all things JavaScript",
+        "bookID":5,
+        "avaliable":true
+    },
+    {
+        "author": "Jon Duckett",
+        "title": "HTML & CSS",
+        "description": "Describes all things HTML & CSS",
+        "bookID":6,
+        "avaliable":true
+    },
+    {
+        "author": "Jon Duckett",
+        "title": "HTML & CSS",
+        "description": "Describes all things HTML & CSS",
+        "bookID":7,
+        "avaliable":true
+    },
+    {
+        "author": "Jon Duckett",
+        "title": "HTML & CSS",
+        "description": "Describes all things HTML & CSS",
+        "bookID":8,
+        "avaliable":true
+    },
+    {
+        "author": "Nikhil Abraham et al...",
+        "title": "Coding for Dummies",
+        "description": "Describes all things Coding",
+        "bookID":9,
+        "avaliable":true
+    }, 
+    {
+        "author": "Nikhil Abraham et al...",
+        "title": "Coding for Dummies",
+        "description": "Describes all things Coding",
+        "bookID":10,
+        "avaliable":true
+    },{
+        "author": "unknown",
+        "title": "Big Fat Notebook'Computer Science & Coding'",
+        "description": "Describes all things ",
+        "bookID":11,
+        "avaliable":true
+    }, {
+        "author": "Duckett, ...et al",
+        "title": "Professional XML Schemas",
+        "description": "Describes Schemas",
+        "bookID":12,
+        "avaliable":true
+    }, {
+        "author": "Baptiste Pesquet",
+        "title": "The JavaScript way",
+        "description": "Describes JavaScript",
+        "bookID":13,
+        "avaliable":true
+    },
+    {
+        "author": "DK",
+        "title": "Beginers step-by-step Coding Course",
+        "description": "Learn Computer programming the easy way",
+        "bookID":14,
+        "avaliable":true
+    },
+    {
+        "author": "Andrew Yueh",
+        "title": "JavaScript Coding For Teens",
+        "description": "Beginner's guide to developing websites and games",
+        "bookID":15,
+        "avaliable":true
+    },
+    {
+        "author": "Card Maker",
+        "title": "JavaScript Coding Cards",
+        "description": "JS cards",
+        "bookID":16,
+        "avaliable":true
+    },
+    {
+        "author": "Card Maker",
+        "title": "JavaScript Coding Cards",
+        "description": "JS cards",
+        "bookID":17,
+        "avaliable":true
+    },
+    {
+        "author": "Card Maker",
+        "title": "JavaScript Coding Cards",
+        "description": "JS cards",
+        "bookID":18,
+        "avaliable":true
+    },
+    {
+        "author": "Baptiste Pesquet",
+        "title": "The JavaScript way",
+        "description": "Describes JavaScript",
+        "bookID":19,
+        "avaliable":true
+    },
+    {
+        "author": "Wladston Ferreira Filho",
+        "title": "Computer Science Distilled",
+        "description": "Learn the art of solving computational problems",
+        "bookID":20,
+        "avaliable":true
+    },
+    {
+        "author": "John Resig, Bear Bibeault, Josip Maras",
+        "title": "Secrets of the Javascript Ninja",
+        "description": "Describes JavaScript",
+        "bookID":21,
+        "avaliable":true
+    },
+    {
+        "author": "Eric Freeman & Elisabeth Robson",
+        "title": "Head First Javascript Programming",
+        "description": "A Brain friendly guide",
+        "bookID":22,
+        "avaliable":true
+    },
+    {
+        "author": "Jon Duckett",
+        "title": "JavaScript & Jquery",
+        "description": "Describes all things JavaScript & JQuery",
+        "bookID":23,
+        "avaliable":true
+    },
+    {
+        "author": "Sammie Bae",
+        "title": "JavaScript Data structures and alogorithms",
+        "description": "An intro to understanding and implementing core data structure and Algorithm fundamentals",
+        "bookID":24,
+        "avaliable":true
+    },
+    {
+        "author": "John Duckett",
+        "title": "JavaScript and Jquery",
+        "description": "Interactive front-end web development",
+        "bookID":25,
+        "avaliable":true
+    }, {
+        "author": "Marijin Haverbeke",
+        "title": "Eloquent Javascript",
+        "description": "A modern intro to programming",
+        "bookID":26,
+        "avaliable":true
+    },
+    {
+        "author": "Code staffing",
+        "title": "JavaScript C,json azure etc...",
+        "description": "magazine",
+        "bookID":27,
+        "avaliable":true
+    },
+    {
+        "author": "Card maker",
+        "title": "JavaScript Cards",
+        "description": "cards",
+        "bookID":28,
+        "avaliable":true
+    },{
+        "author": "Jon Duckett",
+        "title": "HTML & CSS",
+        "description": "Describes all things HTML & CSS",
+        "bookID":29,
+        "avaliable":true
+    },{
+        "author": "Jon Duckett",
+        "title": "JavaScript & Jquery",
+        "description": "Describes all things javascript & jquery",
+        "bookID":30,
+        "avaliable":true
+    },{
+        "author": "code magazine ",
+        "title": "magazine",
+        "description": "magazine",
+        "bookID":31,
+        "avaliable":true
+    }
+    
+]

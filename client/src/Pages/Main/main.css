@@ -1,0 +1,88 @@
+@font-face {
+    font-family: happy;
+    src: url(../../Components/assets/BurlingtonDemoRegular.ttf)
+}
+
+@font-face {
+    font-family: brookfield;
+    src: url(../../Components/assets/BrookfieldDemoRegular.ttf);
+}
+
+
+#mainHeader {
+    color: black;
+    font-size: 70px;
+    text-align: center;
+    font-family: brookfield;
+    margin-top: 8%;
+    text-shadow: 3px 3px 3px rgb(20, 235, 255);
+}
+
+.mainBtn:link,
+a:visited {
+    background-color: black;
+    font-size: 35px;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    transition-duration: 0.4s;
+    text-shadow: 3px 3px 3px rgb(25, 168, 183);
+}
+
+.mainBtn:hover {
+    background-color: rgb(20, 188, 255);
+}
+
+
+#mappeditems {
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    transition: transform 0.8s;
+
+}
+
+#each-Item:hover #backofcard {
+    opacity: 1;
+}
+
+
+#each-Item {
+    display: block;
+    position: relative;
+    background-image: url(../../Components/assets/images/bluepaper.jfif);
+    background-size: cover;
+    flex: 20%;
+    font-size: 32px;
+    margin-top: 30px;
+    padding-top: 2%;
+    padding: 1%;
+    width: 75%;
+    text-align: left;
+    margin-left: 5%;
+    border-radius: 30px;
+    border: 7px outset rgb(216, 206, 206);
+}
+
+#backofcard {
+    position: absolute;
+    bottom: 0;
+    /* background: rgb(0, 0, 0); */
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through  */
+    color: #f1f1f1;
+    width: 90%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+
+}

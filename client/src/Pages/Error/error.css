@@ -1,0 +1,16 @@
+#screaming{
+    width: 400px;
+    height:400px;
+    display:block;
+    margin:auto;
+    margin-top: 5%;
+    border:5px solid aquamarine;
+    box-shadow: 2px 2px 2px black;
+}
+ #error{
+     margin-top: 5%;
+    color:aquamarine;
+    text-align: center;
+    font-size:70px;
+    font-family: happy;
+} 
